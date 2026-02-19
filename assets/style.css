@@ -1,21 +1,31 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 16px;
 }
 
 h1 {
     font-size: 38px;
     font-weight: 600;
+    word-wrap: break-word;
 }
 
 h2 {
     font-size: 14px;
     font-weight: 400;
+    word-wrap: break-word;
+}
+
+.centered {
+    text-align: center;
+}
+
+.text-paragraph {
+    font-size: 18px;
 }
 
 .header-section {
     background:
-        linear-gradient(rgba(51, 36, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        linear-gradient(rgba(51, 36, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url('CoffeBackground.png');
     background-size: cover;
     background-position: center;
@@ -53,8 +63,37 @@ h2 {
     background-color: #f5f9f5;
 }
 
+.text-container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .post-trauma-text {
     max-width: 50%;
+}
+
+dragon-bullets {}
+
+.red-point::before,
+.green-point::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 8px;
+
+    -webkit-mask: url("check.svg") no-repeat center / contain;
+    mask: url("check.svg") no-repeat center / contain;
+
+    background-color: currentColor;
+}
+
+.red-point {
+    color: #FC0D1BFF;
+}
+
+.green-point {
+    color: #50B366FF;
 }
 
 @media (max-width: 768px) {
