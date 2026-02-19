@@ -3,6 +3,16 @@ body {
   font-weight: 16px;
 }
 
+h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .header-section {
     background:
         linear-gradient(rgba(51, 36, 0, 0.6), rgba(0, 0, 0, 0.6)), 
@@ -43,8 +53,16 @@ body {
     background-color: #f5f9f5;
 }
 
+.post-trauma-text {
+    max-width: 50%;
+}
+
 @media (max-width: 768px) {
     .title {
         margin-top: 160px;
+    }
+
+    .post-trauma-text {
+        max-width: 100%;
     }
 }
