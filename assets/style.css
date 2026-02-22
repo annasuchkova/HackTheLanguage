@@ -21,6 +21,12 @@ h2 {
 
 .text-paragraph {
     font-size: 18px;
+    line-height: 1.55;
+    font-weight: 300;
+}
+
+.rounded-button {
+    border-radius: 30px;
 }
 
 .header-section {
@@ -43,7 +49,7 @@ h2 {
 }
 
 .title {
-    margin-top: 80px;
+    margin-top: 200px;
     color: #fff;
     font-size: 48px;
     line-height: 1.23;
@@ -53,9 +59,9 @@ h2 {
 
 .sub-title {
     color: #fff;
-    font-size: 26px;
+    font-size: 36px;
     line-height: 1.23;
-    font-weight: 400;
+    font-weight: 600;
     max-width: 300px;
 }
 
@@ -96,10 +102,7 @@ dragon-bullets {}
     color: #50B366FF;
 }
 
-@media (max-width: 768px) {
-    .title {
-        margin-top: 160px;
-    }
+@media (max-width: 950px) {
 
     .post-trauma-text {
         max-width: 100%;
