@@ -15,6 +15,12 @@ h2 {
     word-wrap: break-word;
 }
 
+h3 {
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 600;
+}
+
 .centered {
     text-align: center;
 }
@@ -78,8 +84,6 @@ h2 {
     max-width: 50%;
 }
 
-dragon-bullets {}
-
 .red-point::before,
 .green-point::before {
     content: "";
@@ -100,6 +104,10 @@ dragon-bullets {}
 
 .green-point {
     color: #50B366FF;
+}
+
+.bullets-coulumn {
+    width: 380px;
 }
 
 @media (max-width: 950px) {
