@@ -21,6 +21,12 @@ h3 {
     font-weight: 600;
 }
 
+h4 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: 600;
+}
+
 .centered {
     text-align: center;
 }
@@ -29,6 +35,10 @@ h3 {
     font-size: 18px;
     line-height: 1.55;
     font-weight: 300;
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 .rounded-button {
@@ -71,7 +81,7 @@ h3 {
     max-width: 300px;
 }
 
-.post-trauma-section {
+.colored-section {
     background-color: #f5f9f5;
 }
 
@@ -110,6 +120,10 @@ h3 {
     width: 380px;
 }
 
+.text-column {
+    max-width: 45%;
+}
+
 @media (max-width: 950px) {
 
     .post-trauma-text {
@@ -118,6 +132,10 @@ h3 {
 
     .carousel-item {
         min-height: 800px;
+    }
+
+    .text-column {
+        max-width: 90%;
     }
 }
 
@@ -145,4 +163,10 @@ h3 {
 .feedback-text {
     font-style: italic;
     width: 60%;
+}
+
+.aperol-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
