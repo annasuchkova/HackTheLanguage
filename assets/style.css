@@ -37,6 +37,16 @@ h4 {
     font-weight: 300;
 }
 
+.text-link {
+    line-height: 1.55;
+    font-weight: 200;
+}
+
+.card-text-12 {
+    line-height: 1.55;
+    font-size: 12px;
+}
+
 .text-justify {
     text-align: justify;
 }
@@ -169,4 +179,13 @@ h4 {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+.price-card {
+    width: 360px;
+}
+
+.price-button {
+    width: 320px;
+    height: 60px;
 }
